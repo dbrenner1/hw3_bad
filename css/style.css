@@ -13,7 +13,7 @@ body{
 
 .overview{
   grid-column: 1/4;
-  background-image: '/images/header.jpg';
+  background-image: URL('images/header.jpg');
   background-attachment: fixed; /* Parallax effect */     
   background-position: center;  /* Parallax effect */
   background-repeat: no-repeat; /* Parallax effect */
@@ -219,7 +219,7 @@ grid-row-start: 2;
   }
  
   .overview{
-    background-image: '/images/header.jpg';
+    background-image: URL('images/header.jpg');
     margin: 0px;
     grid-column: 1/6;
   }
