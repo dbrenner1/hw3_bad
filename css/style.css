@@ -218,11 +218,6 @@ grid-row-start: 2;
     grid-template-columns: 50px auto 500px auto 50px;
   }
  
-  .overview{
-    background-image: URL('images/header.jpg');
-    margin: 0px;
-    grid-column: 1/6;
-  }
   /* Steps 11 and 12: Update the grid-column property of the grid's children (where-needed)*/
   .about{grid-column: 3/5;}
   .clients{grid-column: 3/5;}
