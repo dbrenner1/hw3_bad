@@ -13,7 +13,7 @@ body{
 
 .overview{
   grid-column: 1/4;
-  background-image: URL('images/header.jpg');
+  background-image: url('/images/header.jpg');
   background-attachment: fixed; /* Parallax effect */     
   background-position: center;  /* Parallax effect */
   background-repeat: no-repeat; /* Parallax effect */
@@ -217,7 +217,9 @@ grid-row-start: 2;
     display: grid;
     grid-template-columns: 50px auto 500px auto 50px;
   }
- 
+  .overview {
+  grid-column: 1/6}
+  
   /* Steps 11 and 12: Update the grid-column property of the grid's children (where-needed)*/
   .about{grid-column: 3/5;}
   .clients{grid-column: 3/5;}
