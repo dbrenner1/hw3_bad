@@ -12,14 +12,14 @@ body{
 
 
 .overview{
+  color: white;
   grid-column: 1/4;
   background-image: url('/images/header2.jpg');
   background-attachment: fixed; /* Parallax effect */     
   background-position: center;  /* Parallax effect */
   background-repeat: no-repeat; /* Parallax effect */
   background-size: cover;       /* Parallax effect */
-  color: white;
-  height: 400px;                /* Parallax effect */
+  height: auto;                /* Parallax effect */
 }
 
 
